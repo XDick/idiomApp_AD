@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value = "FamousPeople"></dbname>
+
+    <version value= "1"></version>
+
+    <list>
+        <mapping class = "com.example.administrator.havingdate.FamousPeople"></mapping>
+        <mapping class = "com.example.administrator.havingdate.Flag"></mapping>
+
+    </list>
+
+</litepal>
+
+

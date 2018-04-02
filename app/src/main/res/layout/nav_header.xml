@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="180dp"
+    android:padding="10dp"
+    android:background="#2c69ca">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/head" />
+
+    <TextView
+        android:id="@+id/head_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/head_account"
+        android:gravity="center"
+        android:text="wushilansunshi@qq.com"
+        android:textColor="#ffffff" />
+
+    <TextView
+       android:id="@+id/head_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="叉地克"
+        android:gravity="center"
+        android:layout_below="@+id/icon_image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

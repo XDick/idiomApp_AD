@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="应用" >
+
+    <menu>
+        <item android:id="@+id/history"
+            android:title="历史故事"/>
+        <item  android:id="@+id/my_like"
+            android:title="我的收藏"/>
+
+    </menu>
+      </item>
+
+
+  <item android:title="关于">
+        <menu>
+          <item android:id="@+id/nav_author"
+               android:title="开发者"/>
+          <item android:id="@+id/nav_about"
+              android:title="说明" />
+            <item android:id="@+id/count"
+                android:title="统计" />
+         </menu>
+     </item>
+</menu>

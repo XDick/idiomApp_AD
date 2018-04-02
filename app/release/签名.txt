@@ -1,0 +1,4 @@
+E:\XDick\Android\APP\Android>jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore E:\XDick\Android\APP\Android\XDick.jks -storepass 86811412 E:\XDick\Android\APP\Android\idiomApp_ADversion\app\release\tencent.apk key0
+
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore E:\XDick\Android\APP\Android\XDick.jks -storepass 86811412 E:\XDick\Android\APP\Android\idiomApp_ADversion\app\release\tencent.apk key0
